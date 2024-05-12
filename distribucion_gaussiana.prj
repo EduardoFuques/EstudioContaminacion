@@ -1,0 +1,174 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2718910160" file="C:\Users\edu65\Documents\MATLAB\Estudio Contaminacion\distribucion_gaussiana.prj" location="C:\Users\edu65\Documents\MATLAB\Estudio Contaminacion" name="distribucion_gaussiana" preferred-package-location="C:\Users\edu65\Documents\MATLAB\Estudio Contaminacion\distribucion_gaussiana\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>distribucion_gaussiana</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>2.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\portada.PNG</param.screenshot>
+    <param.guid />
+    <param.net.saved.interface />
+    <param.installpath.string>\distribucion_gaussiana\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>${PROJECT_ROOT}\portada.PNG</param.logo>
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\distribucion_gaussiana\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\distribucion_gaussiana\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\distribucion_gaussiana\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>ModeloGausiano</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.net.saved.interface />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\distribucion_gaussiana.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Ajustes.m</file>
+      <file>${PROJECT_ROOT}\allcomb.m</file>
+      <file>${PROJECT_ROOT}\Atmosfericas.fig</file>
+      <file>${PROJECT_ROOT}\Atmosfericas.m</file>
+      <file>${PROJECT_ROOT}\Base.fig</file>
+      <file>${PROJECT_ROOT}\Base.m</file>
+      <file>${PROJECT_ROOT}\Cmax.fig</file>
+      <file>${PROJECT_ROOT}\Cmax.m</file>
+      <file>${PROJECT_ROOT}\Colores.fig</file>
+      <file>${PROJECT_ROOT}\Colores.m</file>
+      <file>${PROJECT_ROOT}\Contaminante.fig</file>
+      <file>${PROJECT_ROOT}\Contaminante.m</file>
+      <file>${PROJECT_ROOT}\DispCont.pdf</file>
+      <file>${PROJECT_ROOT}\distribucion_gaussiana.fig</file>
+      <file>${PROJECT_ROOT}\distribucion_gaussiana.m</file>
+      <file>${PROJECT_ROOT}\distribucion_gaussiana.prj</file>
+      <file>${PROJECT_ROOT}\DMH N°118-2018 HELIOFANIA.xls</file>
+      <file>${PROJECT_ROOT}\DMH N°118-2018 TEMPERATURA.xls</file>
+      <file>${PROJECT_ROOT}\DMH N°118-2018 VIENTO.xls</file>
+      <file>${PROJECT_ROOT}\DMH_N°227-2018.xls</file>
+      <file>${PROJECT_ROOT}\Exportar.fig</file>
+      <file>${PROJECT_ROOT}\Exportar.m</file>
+      <file>${PROJECT_ROOT}\gaussianPlume.m</file>
+      <file>${PROJECT_ROOT}\Glifford.PNG</file>
+      <file>${PROJECT_ROOT}\Graficas.fig</file>
+      <file>${PROJECT_ROOT}\Graficas.m</file>
+      <file>${PROJECT_ROOT}\Help1.fig</file>
+      <file>${PROJECT_ROOT}\Help1.m</file>
+      <file>${PROJECT_ROOT}\Help2.fig</file>
+      <file>${PROJECT_ROOT}\Help2.m</file>
+      <file>${PROJECT_ROOT}\Horas sol Encarnación 2016.xlsx</file>
+      <file>${PROJECT_ROOT}\HorasSol.mat</file>
+      <file>${PROJECT_ROOT}\Importar.fig</file>
+      <file>${PROJECT_ROOT}\Importar.m</file>
+      <file>${PROJECT_ROOT}\Meteorología.mat</file>
+      <file>${PROJECT_ROOT}\Modelo.fig</file>
+      <file>${PROJECT_ROOT}\Modelo.m</file>
+      <file>${PROJECT_ROOT}\PerfilViento.PNG</file>
+      <file>${PROJECT_ROOT}\PlumeRise.pdf</file>
+      <file>${PROJECT_ROOT}\portada.PNG</file>
+      <file>${PROJECT_ROOT}\SimGraficas.fig</file>
+      <file>${PROJECT_ROOT}\SimGraficas.m</file>
+      <file>${PROJECT_ROOT}\SimModelo.fig</file>
+      <file>${PROJECT_ROOT}\SimModelo.m</file>
+      <file>${PROJECT_ROOT}\Simular.fig</file>
+      <file>${PROJECT_ROOT}\Simular.m</file>
+      <file>${PROJECT_ROOT}\Valores.fig</file>
+      <file>${PROJECT_ROOT}\Valores.m</file>
+      <file>${PROJECT_ROOT}\xlcolumnletter.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\distribucion_gaussiana\for_testing" name="readme.txt" optional="true">C:\Users\edu65\Documents\MATLAB\Estudio Contaminacion\distribucion_gaussiana\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\distribucion_gaussiana\for_testing" name="distribucion_gaussiana.exe" optional="false">C:\Users\edu65\Documents\MATLAB\Estudio Contaminacion\distribucion_gaussiana\for_testing\distribucion_gaussiana.exe</file>
+      <file location="${PROJECT_ROOT}\distribucion_gaussiana\for_testing" name="splash.png" optional="false">C:\Users\edu65\Documents\MATLAB\Estudio Contaminacion\distribucion_gaussiana\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\MATLAB Production Server\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
